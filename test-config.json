@@ -1,0 +1,170 @@
+[
+  {
+    "domain": "https://at.tommy.com",
+    "paths": [
+      {
+        "path": "/",
+        "format": {
+          "page": {
+            "category": {
+              "pageType": "",
+              "primaryCategory": "",
+              "primaryCategoryId": ""
+            },
+            "pageInfo": {
+              "destinationURL": "",
+              "pageAlias": "",
+              "environment": ""
+            },
+            "attributes": {
+              "pageId": "",
+              "storeCountry": "",
+              "storeLanguage": ""
+            },
+            "tools": [{ "toolName": "", "toolVersion": "" }]
+          }
+        }
+      },
+      {
+        "path": "/herren-maentel-jacken",
+        "format": {
+          "page": {
+            "category": {
+              "pageType": "",
+              "subCategory1Id": "",
+              "subCategory2": "",
+              "subCategory1": "",
+              "primaryCategory": "",
+              "subCategory2Id": "",
+              "primaryCategoryId": ""
+            },
+            "pageInfo": {
+              "destinationURL": "",
+              "pageAlias": "",
+              "environment": ""
+            },
+            "tools": [{ "toolName": "", "toolVersion": "" }],
+            "attributes": {
+              "pageId": "",
+              "storeCountry": "",
+              "storeLanguage": ""
+            }
+          },
+          "campaign": "",
+          "product": [
+            {
+              "category": { "primaryCategory": "" },
+              "productInfo": {
+                "styleId": "",
+                "primarySKU": "",
+                "productName": "",
+                "uniqueId": ""
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "domain": "https://be.tommy.com",
+    "paths": [{ "path": "/" }, { "path": "/heren-jassen-jacks" }]
+  },
+  {
+    "domain": "https://ch.tommy.com",
+    "paths": [{ "path": "/" }, { "path": "/herren-maentel-jacken" }]
+  },
+  {
+    "domain": "https://de.tommy.com",
+    "paths": [{ "path": "/" }, { "path": "/herren-maentel-jacken" }]
+  },
+  {
+    "domain": "https://es.tommy.com",
+    "paths": [{ "path": "/" }, { "path": "/hombres-abrigos-chaquetas" }]
+  },
+  {
+    "domain": "https://fr.tommy.com",
+    "paths": [{ "path": "/" }, { "path": "/manteaux-vestes-homme" }]
+  },
+  {
+    "domain": "https://hr.tommy.com",
+    "paths": [{ "path": "/" }, { "path": "/mens-coats-jackets" }]
+  },
+  {
+    "domain": "https://it.tommy.com",
+    "paths": [{ "path": "/" }, { "path": "/cappotti-giacche-uomini" }]
+  },
+  {
+    "domain": "https://nl.tommy.com",
+    "paths": [{ "path": "/" }, { "path": "/heren-jassen-jacks" }]
+  },
+  {
+    "domain": "https://cz.tommy.com",
+    "paths": [{ "path": "/" }, { "path": "/mens-coats-jackets" }]
+  },
+  {
+    "domain": "https://dk.tommy.com",
+    "paths": [{ "path": "/" }, { "path": "/mens-coats-jackets" }]
+  },
+  {
+    "domain": "https://ee.tommy.com",
+    "paths": [{ "path": "/" }, { "path": "/mens-coats-jackets" }]
+  },
+  {
+    "domain": "https://fi.tommy.com",
+    "paths": [{ "path": "/" }, { "path": "/mens-coats-jackets" }]
+  },
+  {
+    "domain": "https://hu.tommy.com",
+    "paths": [{ "path": "/" }, { "path": "/mens-coats-jackets" }]
+  },
+  {
+    "domain": "https://ie.tommy.com",
+    "paths": [{ "path": "/" }, { "path": "/mens-coats-jackets" }]
+  },
+  {
+    "domain": "https://lv.tommy.com",
+    "paths": [{ "path": "/" }, { "path": "/mens-coats-jackets" }]
+  },
+  {
+    "domain": "https://lt.tommy.com",
+    "paths": [{ "path": "/" }, { "path": "/mens-coats-jackets" }]
+  },
+  {
+    "domain": "https://lu.tommy.com",
+    "paths": [{ "path": "/" }, { "path": "/manteaux-vestes-homme" }]
+  },
+  {
+    "domain": "https://pl.tommy.com",
+    "paths": [{ "path": "/" }, { "path": "/meskie-okrycia-wierzchnie" }]
+  },
+  {
+    "domain": "https://pt.tommy.com",
+    "paths": [{ "path": "/" }, { "path": "/mens-coats-jackets" }]
+  },
+  {
+    "domain": "https://ru.tommy.com",
+    "paths": [
+      { "path": "/" },
+      {
+        "path": "/%D0%BC%D1%83%D0%B6%D1%81%D0%BA%D0%B8%D0%B5-%D0%BF%D0%B0%D0%BB%D1%8C%D1%82%D0%BE-%D0%BA%D1%83%D1%80%D1%82%D0%BA%D0%B8"
+      }
+    ]
+  },
+  {
+    "domain": "https://sk.tommy.com",
+    "paths": [{ "path": "/" }, { "path": "/mens-coats-jackets" }]
+  },
+  {
+    "domain": "https://si.tommy.com",
+    "paths": [{ "path": "/" }, { "path": "/mens-coats-jackets" }]
+  },
+  {
+    "domain": "https://se.tommy.com",
+    "paths": [{ "path": "/" }, { "path": "/mens-coats-jackets" }]
+  },
+  {
+    "domain": "https://uk.tommy.com",
+    "paths": [{ "path": "/" }, { "path": "/mens-coats-jackets" }]
+  }
+]
