@@ -4,7 +4,8 @@ orbs:
 workflows:
   commit:
     jobs:
-      - cypress/run # "run" job comes from "cypress" orb
+      - cypress/run: # "run" job comes from "cypress" orb
+        store_artifacts: true
   hourly:
     triggers:
       - schedule:
@@ -14,4 +15,5 @@ workflows:
               only:
                 - master
     jobs:
-      - cypress/run
+      - cypress/run:
+        store_artifacts: true
