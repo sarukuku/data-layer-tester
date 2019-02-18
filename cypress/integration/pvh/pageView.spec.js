@@ -25,21 +25,20 @@ const recurseOverObjectProps = (object, callback, callbackArgs = []) => {
 domains.forEach(domainObj => {
   domainObj.paths.forEach(pathObj => {
     context(`${domainObj.domain + pathObj.path}`, () => {
-      debugger
       before(() => {
         cy.visit(`${domainObj.domain + pathObj.path}`);
       });
 
-      it(`digitalData object exists`, () => {
+      it("digitalData object exists", () => {
         cy.window().should("have.property", "digitalData");
       });
 
       if (pathObj.hasOwnProperty("format")) {
-        it(`digitalData format is correct`, () => {
+        it("digitalData format is correct", () => {
           cy.window().then(win => {
-            recurseOverObjectProps(pathObj.format, path => {
+            recurseOverObjectProps(pathObj.format, (path, value) => {
               const ddValue = get(win.digitalData, path);
-              if (typeof ddValue !== "string") {
+              if (typeof value === "string" && typeof ddValue !== "string") {
                 expect(ddValue).to.be.a("string");
               }
             });

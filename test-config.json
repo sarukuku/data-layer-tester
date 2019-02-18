@@ -50,7 +50,7 @@
               "storeLanguage": ""
             }
           },
-          "campaign": "",
+          "campaign": [],
           "product": [
             {
               "category": { "primaryCategory": "" },
