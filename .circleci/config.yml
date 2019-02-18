@@ -2,6 +2,16 @@ version: 2.1
 orbs:
   cypress: cypress-io/cypress@1.3.0
 workflows:
-  build:
+  commit:
     jobs:
       - cypress/run # "run" job comes from "cypress" orb
+  hourly:
+    triggers:
+      - schedule:
+          cron: "0 * * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - cypress/run
