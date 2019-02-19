@@ -1,8 +1,9 @@
 [
   {
-    "domain": "https://at.tommy.com",
+    "domain": "https://uk.tommy.com",
     "paths": [
       {
+        "pageType": "HOMEPAGE",
         "path": "/",
         "format": {
           "page": {
@@ -21,20 +22,108 @@
               "storeCountry": "",
               "storeLanguage": ""
             },
-            "tools": [{ "toolName": "", "toolVersion": "" }]
+            "tools": [
+              {
+                "toolName": "",
+                "toolVersion": ""
+              }
+            ]
           }
         }
       },
       {
-        "path": "/herren-maentel-jacken",
+        "pageType": "GLP",
+        "path": "/women",
         "format": {
           "page": {
             "category": {
               "pageType": "",
+              "primaryCategory": "",
+              "primaryCategoryId": ""
+            },
+            "pageInfo": {
+              "destinationURL": "",
+              "pageAlias": "",
+              "environment": ""
+            },
+            "tools": [
+              {
+                "toolName": "",
+                "toolVersion": ""
+              }
+            ],
+            "attributes": {
+              "pageId": "",
+              "storeCountry": "",
+              "storeLanguage": ""
+            }
+          },
+          "campaign": [],
+          "product": null
+        }
+      },
+      {
+        "pageType": "SEARCH",
+        "path": "/search?searchTerm=1387904876004",
+        "format": {
+          "page": {
+            "category": {
+              "pageType": "",
+              "primaryCategory": ""
+            },
+            "pageInfo": {
+              "destinationURL": "",
+              "pageAlias": "",
+              "environment": ""
+            },
+            "tools": [
+              {
+                "toolName": "",
+                "toolVersion": ""
+              }
+            ],
+            "attributes": {
+              "pageId": "",
+              "storeCountry": "",
+              "storeLanguage": ""
+            }
+          },
+          "product": [
+            {
+              "category": {
+                "primaryCategory": ""
+              },
+              "productInfo": {
+                "styleId": "",
+                "primarySKU": "",
+                "productName": "",
+                "uniqueId": ""
+              }
+            }
+          ],
+          "search": {
+            "query": "",
+            "numberResults": "",
+            "searchType": ""
+          },
+          "campaigns": [
+            {}
+          ]
+        }
+      },
+      {
+        "pageType": "PLP",
+        "path": "/womens-bras",
+        "format": {
+          "page": {
+            "category": {
+              "pageType": "",
+              "subCategory3": "",
               "subCategory1Id": "",
               "subCategory2": "",
               "subCategory1": "",
               "primaryCategory": "",
+              "subCategory3Id": "",
               "subCategory2Id": "",
               "primaryCategoryId": ""
             },
@@ -43,7 +132,12 @@
               "pageAlias": "",
               "environment": ""
             },
-            "tools": [{ "toolName": "", "toolVersion": "" }],
+            "tools": [
+              {
+                "toolName": "",
+                "toolVersion": ""
+              }
+            ],
             "attributes": {
               "pageId": "",
               "storeCountry": "",
@@ -53,7 +147,9 @@
           "campaign": [],
           "product": [
             {
-              "category": { "primaryCategory": "" },
+              "category": {
+                "primaryCategory": ""
+              },
               "productInfo": {
                 "styleId": "",
                 "primarySKU": "",
@@ -63,108 +159,92 @@
             }
           ]
         }
-      }
-    ]
-  },
-  {
-    "domain": "https://be.tommy.com",
-    "paths": [{ "path": "/" }, { "path": "/heren-jassen-jacks" }]
-  },
-  {
-    "domain": "https://ch.tommy.com",
-    "paths": [{ "path": "/" }, { "path": "/herren-maentel-jacken" }]
-  },
-  {
-    "domain": "https://de.tommy.com",
-    "paths": [{ "path": "/" }, { "path": "/herren-maentel-jacken" }]
-  },
-  {
-    "domain": "https://es.tommy.com",
-    "paths": [{ "path": "/" }, { "path": "/hombres-abrigos-chaquetas" }]
-  },
-  {
-    "domain": "https://fr.tommy.com",
-    "paths": [{ "path": "/" }, { "path": "/manteaux-vestes-homme" }]
-  },
-  {
-    "domain": "https://hr.tommy.com",
-    "paths": [{ "path": "/" }, { "path": "/mens-coats-jackets" }]
-  },
-  {
-    "domain": "https://it.tommy.com",
-    "paths": [{ "path": "/" }, { "path": "/cappotti-giacche-uomini" }]
-  },
-  {
-    "domain": "https://nl.tommy.com",
-    "paths": [{ "path": "/" }, { "path": "/heren-jassen-jacks" }]
-  },
-  {
-    "domain": "https://cz.tommy.com",
-    "paths": [{ "path": "/" }, { "path": "/mens-coats-jackets" }]
-  },
-  {
-    "domain": "https://dk.tommy.com",
-    "paths": [{ "path": "/" }, { "path": "/mens-coats-jackets" }]
-  },
-  {
-    "domain": "https://ee.tommy.com",
-    "paths": [{ "path": "/" }, { "path": "/mens-coats-jackets" }]
-  },
-  {
-    "domain": "https://fi.tommy.com",
-    "paths": [{ "path": "/" }, { "path": "/mens-coats-jackets" }]
-  },
-  {
-    "domain": "https://hu.tommy.com",
-    "paths": [{ "path": "/" }, { "path": "/mens-coats-jackets" }]
-  },
-  {
-    "domain": "https://ie.tommy.com",
-    "paths": [{ "path": "/" }, { "path": "/mens-coats-jackets" }]
-  },
-  {
-    "domain": "https://lv.tommy.com",
-    "paths": [{ "path": "/" }, { "path": "/mens-coats-jackets" }]
-  },
-  {
-    "domain": "https://lt.tommy.com",
-    "paths": [{ "path": "/" }, { "path": "/mens-coats-jackets" }]
-  },
-  {
-    "domain": "https://lu.tommy.com",
-    "paths": [{ "path": "/" }, { "path": "/manteaux-vestes-homme" }]
-  },
-  {
-    "domain": "https://pl.tommy.com",
-    "paths": [{ "path": "/" }, { "path": "/meskie-okrycia-wierzchnie" }]
-  },
-  {
-    "domain": "https://pt.tommy.com",
-    "paths": [{ "path": "/" }, { "path": "/mens-coats-jackets" }]
-  },
-  {
-    "domain": "https://ru.tommy.com",
-    "paths": [
-      { "path": "/" },
+      },
       {
-        "path": "/%D0%BC%D1%83%D0%B6%D1%81%D0%BA%D0%B8%D0%B5-%D0%BF%D0%B0%D0%BB%D1%8C%D1%82%D0%BE-%D0%BA%D1%83%D1%80%D1%82%D0%BA%D0%B8"
+        "pageType": "PDP",
+        "path": "/bold-underband-t-shirt-bra-1387904876004",
+        "format": {
+          "page": {
+            "category": {
+              "pageType": "",
+              "subCategory3": "",
+              "subCategory1Id": "",
+              "subCategory2": "",
+              "subCategory1": "",
+              "primaryCategory": "",
+              "subCategory3Id": "",
+              "subCategory2Id": "",
+              "primaryCategoryId": ""
+            },
+            "affinity": {
+              "brand": "",
+              "gender": ""
+            },
+            "pageInfo": {
+              "destinationURL": "",
+              "pageAlias": "",
+              "environment": ""
+            },
+            "attributes": {
+              "pageId": "",
+              "storeCountry": "",
+              "storeLanguage": ""
+            },
+            "tools": [
+              {
+                "toolName": "",
+                "toolVersion": ""
+              }
+            ]
+          },
+          "campaigns": [
+            {}
+          ],
+          "product": [
+            {
+              "productInfo": {
+                "productName": "",
+                "primarySKU": "",
+                "styleId": "",
+                "uniqueId": ""
+              },
+              "category": {
+                "primaryCategory": "",
+                "gender": ""
+              }
+            }
+          ]
+        }
+      },
+      {
+        "pageType": "CONTENT",
+        "path": "/customer-service-product-information",
+        "format": {
+          "page": {
+            "category": {
+              "pageType": "",
+              "primaryCategory": "",
+              "primaryCategoryId": ""
+            },
+            "pageInfo": {
+              "destinationURL": "",
+              "pageAlias": "",
+              "environment": ""
+            },
+            "attributes": {
+              "pageId": "",
+              "storeCountry": "",
+              "storeLanguage": ""
+            },
+            "tools": [
+              {
+                "toolName": "",
+                "toolVersion": ""
+              }
+            ]
+          }
+        }
       }
     ]
-  },
-  {
-    "domain": "https://sk.tommy.com",
-    "paths": [{ "path": "/" }, { "path": "/mens-coats-jackets" }]
-  },
-  {
-    "domain": "https://si.tommy.com",
-    "paths": [{ "path": "/" }, { "path": "/mens-coats-jackets" }]
-  },
-  {
-    "domain": "https://se.tommy.com",
-    "paths": [{ "path": "/" }, { "path": "/mens-coats-jackets" }]
-  },
-  {
-    "domain": "https://uk.tommy.com",
-    "paths": [{ "path": "/" }, { "path": "/mens-coats-jackets" }]
   }
 ]
