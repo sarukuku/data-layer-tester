@@ -246,5 +246,253 @@
         }
       }
     ]
+  },
+  {
+    "domain": "https://de.tommy.com",
+    "paths": [
+      {
+        "pageType": "HOMEPAGE",
+        "path": "/",
+        "format": {
+          "page": {
+            "category": {
+              "pageType": "",
+              "primaryCategory": "",
+              "primaryCategoryId": ""
+            },
+            "pageInfo": {
+              "destinationURL": "",
+              "pageAlias": "",
+              "environment": ""
+            },
+            "attributes": {
+              "pageId": "",
+              "storeCountry": "",
+              "storeLanguage": ""
+            },
+            "tools": [
+              {
+                "toolName": "",
+                "toolVersion": ""
+              }
+            ]
+          }
+        }
+      },
+      {
+        "pageType": "GLP",
+        "path": "/damen",
+        "format": {
+          "page": {
+            "category": {
+              "pageType": "",
+              "primaryCategory": "",
+              "primaryCategoryId": ""
+            },
+            "pageInfo": {
+              "destinationURL": "",
+              "pageAlias": "",
+              "environment": ""
+            },
+            "tools": [
+              {
+                "toolName": "",
+                "toolVersion": ""
+              }
+            ],
+            "attributes": {
+              "pageId": "",
+              "storeCountry": "",
+              "storeLanguage": ""
+            }
+          },
+          "campaign": [],
+          "product": null
+        }
+      },
+      {
+        "pageType": "SEARCH",
+        "path": "/search?searchTerm=1387904876004",
+        "format": {
+          "page": {
+            "category": {
+              "pageType": "",
+              "primaryCategory": ""
+            },
+            "pageInfo": {
+              "destinationURL": "",
+              "pageAlias": "",
+              "environment": ""
+            },
+            "tools": [
+              {
+                "toolName": "",
+                "toolVersion": ""
+              }
+            ],
+            "attributes": {
+              "pageId": "",
+              "storeCountry": "",
+              "storeLanguage": ""
+            }
+          },
+          "product": [
+            {
+              "category": {
+                "primaryCategory": ""
+              },
+              "productInfo": {
+                "styleId": "",
+                "primarySKU": "",
+                "productName": "",
+                "uniqueId": ""
+              }
+            }
+          ],
+          "search": {
+            "query": "",
+            "numberResults": "",
+            "searchType": ""
+          },
+          "campaigns": [
+            {}
+          ]
+        }
+      },
+      {
+        "pageType": "PLP",
+        "path": "/damen-bhs",
+        "format": {
+          "page": {
+            "category": {
+              "pageType": "",
+              "subCategory3": "",
+              "subCategory1Id": "",
+              "subCategory2": "",
+              "subCategory1": "",
+              "primaryCategory": "",
+              "subCategory3Id": "",
+              "subCategory2Id": "",
+              "primaryCategoryId": ""
+            },
+            "pageInfo": {
+              "destinationURL": "",
+              "pageAlias": "",
+              "environment": ""
+            },
+            "tools": [
+              {
+                "toolName": "",
+                "toolVersion": ""
+              }
+            ],
+            "attributes": {
+              "pageId": "",
+              "storeCountry": "",
+              "storeLanguage": ""
+            }
+          },
+          "campaign": [],
+          "product": [
+            {
+              "category": {
+                "primaryCategory": ""
+              },
+              "productInfo": {
+                "styleId": "",
+                "primarySKU": "",
+                "productName": "",
+                "uniqueId": ""
+              }
+            }
+          ]
+        }
+      },
+      {
+        "pageType": "PDP",
+        "path": "/t-shirt-bh-mit-branding-1387904876004",
+        "format": {
+          "page": {
+            "category": {
+              "pageType": "",
+              "subCategory3": "",
+              "subCategory1Id": "",
+              "subCategory2": "",
+              "subCategory1": "",
+              "primaryCategory": "",
+              "subCategory3Id": "",
+              "subCategory2Id": "",
+              "primaryCategoryId": ""
+            },
+            "affinity": {
+              "brand": "",
+              "gender": ""
+            },
+            "pageInfo": {
+              "destinationURL": "",
+              "pageAlias": "",
+              "environment": ""
+            },
+            "attributes": {
+              "pageId": "",
+              "storeCountry": "",
+              "storeLanguage": ""
+            },
+            "tools": [
+              {
+                "toolName": "",
+                "toolVersion": ""
+              }
+            ]
+          },
+          "campaigns": [
+            {}
+          ],
+          "product": [
+            {
+              "productInfo": {
+                "productName": "",
+                "primarySKU": "",
+                "styleId": "",
+                "uniqueId": ""
+              },
+              "category": {
+                "primaryCategory": "",
+                "gender": ""
+              }
+            }
+          ]
+        }
+      },
+      {
+        "pageType": "CONTENT",
+        "path": "/kundenservice-groessentabellen",
+        "format": {
+          "page": {
+            "category": {
+              "pageType": "",
+              "primaryCategory": "",
+              "primaryCategoryId": ""
+            },
+            "pageInfo": {
+              "destinationURL": "",
+              "pageAlias": "",
+              "environment": ""
+            },
+            "attributes": {
+              "pageId": "",
+              "storeCountry": "",
+              "storeLanguage": ""
+            },
+            "tools": [
+              {
+                "toolName": "",
+                "toolVersion": ""
+              }
+            ]
+          }
+        }
+      }
+    ]
   }
 ]
